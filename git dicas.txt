@@ -1,0 +1,12 @@
+git config --global user.name "Kleber Santos"
+git config --global user.email "sdw256@gmail.com"
+git commit -m "Project created"
+git push -u origin master
+
+
+para fazer commit
+
+git status
+git add .
+git commit -m "comentario"
+git push
