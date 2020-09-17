@@ -10,3 +10,9 @@ git status
 git add .
 git commit -m "comentario"
 git push
+
+
+Implantar o sistema no Heroku
+heroku git:remote -a <nome-do-app>
+git remote -v ##para ver quem esta associado com o projeto
+git subtree push --prefix backend heroku master
