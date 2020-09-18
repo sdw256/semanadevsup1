@@ -15,4 +15,6 @@ git push
 Implantar o sistema no Heroku
 heroku git:remote -a <nome-do-app>
 git remote -v ##para ver quem esta associado com o projeto
+
+-->deploy no heroku
 git subtree push --prefix backend heroku master
