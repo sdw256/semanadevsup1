@@ -1,0 +1,9 @@
+Criando projeto com create-react-app:
+npx create-react-app front-web --template typescript
+
+Componente de rotas de paginas do react
+npm install react-router-dom
+
+
+##--dev cria separado no package.json estrutura de devDependencies
+npm install @types/react-router-dom --dev
