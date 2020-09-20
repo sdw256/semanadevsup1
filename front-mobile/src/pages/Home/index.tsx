@@ -2,17 +2,21 @@ import React from 'react';
 import {Text, StyleSheet, View, Image, Alert} from 'react-native';
 import {FontAwesome5 as Icon} from '@expo/vector-icons';
 import {RectButton} from 'react-native-gesture-handler';
+import Header from '../../components/Header';
+import {useNavigation} from '@react-navigation/native'
 
 const Home = () =>{
+    const navigation = useNavigation();
 
     const handlerOnPress = () => {
-        Alert.alert('Vc clicou')
+        navigation.navigate('CreateRecord');
     }
 
     return (
 
         //<> fragment, consegue englobar duas Views
         <>
+            <Header/>
             <View style={styles.container}>
                 <Image 
                     source={require('../../assets/gamer.png')}
