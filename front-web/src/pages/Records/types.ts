@@ -3,7 +3,7 @@ export type RecordsResponse = {
     totalPages: number;
 }
 
-export type RecordItem ={
+export type RecordItem = {
     id: number;
     moment: string;
     name: string;
