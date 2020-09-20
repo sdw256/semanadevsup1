@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as ArrowIcon } from "../../assets/arrow.svg";
 import { ReactComponent as GamerImage } from "../../assets/gamer.svg";
-import { Link,BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './styles.css';
 
 
@@ -14,7 +14,6 @@ const Home = () => (
             <h3 className="home-text-subtitle">
                 Clique no botão abaixo e saiba quais são os jogos que os gamers estão escolhendo
             </h3>
-            {/* <BrowserRouter> */}
             <Link to="/records">
                 <div className="home-actions">
                     <button className="home-btn">
@@ -25,7 +24,6 @@ const Home = () => (
                     </div>
                 </div>
             </Link>  
-            {/* </BrowserRouter>           */}
         </div>
         <GamerImage className="home-image"/>
     </div>

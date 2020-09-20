@@ -41,9 +41,9 @@ const Records = () => {
                             <td>{formatDate(record.moment)}</td>
                             <td>{record.name}</td>
                             <td>{record.age}</td>
-                            <td className="text-secondary">{record.gamePlatform}</td>
+                            <td>{record.gamePlatform}</td>
                             <td>{record.genreName}</td>
-                            <td>{record.gameTitle}</td>
+                            <td>{record.gameTitle}</td>                            
                         </tr>
                     ))}
                 </tbody>
