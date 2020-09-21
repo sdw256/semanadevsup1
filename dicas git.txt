@@ -14,7 +14,9 @@ git push
 
 Implantar o sistema no Heroku
 heroku git:remote -a <nome-do-app>
+heroku git:remote -a sds1kleber
 git remote -v ##para ver quem esta associado com o projeto
 
 -->deploy no heroku
+--> backend é a pasta java do projeto
 git subtree push --prefix backend heroku master
